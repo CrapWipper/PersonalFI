@@ -1,0 +1,48 @@
+/*
+
+Theme Name: Personal Theme of Intelligence Factory
+Descripion: Tema personalizado para o blog da Fábrica de Inteligência
+Author: Fernando Junio Cunha e Sousa
+Version: 1.0
+
+*/
+*{ margin: 0; padding: 0; }
+body{background: #fff; font: 14px arial,tahoma,verdana; text-align: center;}
+
+/* === Header === */
+#header { width: 100%; background: #fff; overflow:hidden;}
+#header-superior { width: 100%; background: #f8f8f8; border-bottom: 1px solid #e1e1e1; }
+#header-superior-content {width: 1000px; margin: 0 auto; overflow: hidden;}
+#header-paginas{float: left;}
+#header-paginas ul {margin: 0; padding: 0; list-style: none;}
+#header-paginas ul li {float: left;}
+#header-paginas ul li a { color: #777; text-decoration: none; padding: 20px 10px; display: block; border-right: 1px solid #e1e1e1; }
+#header-paginas ul li a:hover{color: #427dbd; background: #eee;} /*Altera a cor do menu ao passar o mouse*/
+#header-social{float:right;}
+#header-social a {display: block; margin: 12px 0 0 10px; float: left;}
+#header-content{width: 1000px; margin:0 auto; overflow: hidden;}
+#logo{float: left;margin:10px 0 0 0;}
+
+#login{float: right; margin-top: 55px;}
+#login ul { margin:0; padding: 0; list-style: none;}
+#login ul li{ float: left;}
+#login ul .logar a { background: #292929;}
+#login ul .registre a { background: #171717;}
+#login ul li a { padding: 6px; display: block; text-decoration: none; color: #fff;}
+
+#search{float: right; margin-top: 48px; margin-left: 10px; }
+#search input {float: left; border: 0; padding: 14px 8px; width: 270px; background: #F5F5F5;}
+#search .btn-search {background: #F5F5F5 url(images/ESC/search.png) no-repeat center; width: 40px; height: 44px; cursor: pointer;}
+
+/* ==== Menu de navegação ==== */
+#nav {width: 100%; float: left; background: #222; border-top: 3px solid #427dbd;}
+#nav-content {width: 1000px; margin: 0 auto; }
+#nav-content ul {float: left; list-style: none; text-align: left;}
+#nav-content ul li { display: block;float: left; font: 14px arial,verdana,tahoma; font-weight: bold; text-transform: uppercase; border-right: 1px solid #333; position: relative; }
+#nav-content ul li a {display: block; padding: 20px; text-decoration: none; color: #DDDDDD;}
+#nav-content ul li :hover{background: #427dbd;}
+#nav-content ul li :hover ul { display: block; }
+#nav-content ul li ul {width: 220px; display:block; background: #f8f8f8; position: absolute; border-left:5px solid #427dbd;}
+#nav-content ul li ul li {border-right: none; width: 220px; text-transform: lowercase; font: 14px arial;position: relative; }
+#nav-content ul li ul li a {padding: 10px 12px; color: #666;border-bottom: 1px solid #e1e1e1;}
+#nav-content ul li ul li a :hover{background: #eee; color:#427dbd; }
